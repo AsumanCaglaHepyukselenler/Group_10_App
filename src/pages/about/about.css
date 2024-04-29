@@ -1,0 +1,39 @@
+.about-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-images img {
+    width: 45%; /* İstenilen boyutu ayarlayabilirsiniz */
+    border-radius: 10px;
+}
+
+.about-container h2 {
+    color: #333;
+    text-align: center;
+}
+
+.about-container p {
+    color: #666;
+    line-height: 1.6;
+}
